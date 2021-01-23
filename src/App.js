@@ -7,7 +7,7 @@ class App extends React.Component {
     //  library.add(fab, faCheckSquare, faCoffee)
     //let title = "The GitHub Card App";
     return (
-      <div style={{ margin: "10 0 0 0" }}>
+      <div style={{ marginLeft: "0.9em"  }}>
         <h1>{this.props.title}</h1>
         <br />
         <span>

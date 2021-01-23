@@ -9,11 +9,11 @@ class CardComponent extends React.Component {
         <br />
 
         <Card
-          style={{ width: "440px", background: "#eeeeee" }}
+          style={{width: "440px", background: "#eeeeee", border: "2px", borderColor: "black" }}
           title="One GitHub profile..."
         >
           <div style={{ display: "flex" }}>
-            <span style={{ marginLeft: "3px", background: "#cccccc" }}>
+            <span style={{ marginLeft: "3px", background: "#cccccc", border: "6px", borderColor: "red"  }}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="100"
